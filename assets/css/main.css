@@ -96,10 +96,10 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/fulls/PD Logo blur.png");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/fulls/PD Logo blur.png");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/fulls/PD Logo blur.png");
+		background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/fulls/PD Logo blur.png");
 		background-position: top left, bottom left, auto;
 		background-size: auto, 100% 100%, cover;
 		background-attachment: fixed;
@@ -191,6 +191,9 @@ input, select, textarea {
 		font-weight: 400;
 		color: #fff;
 		letter-spacing: -0.05em;
+	}
+	h1{
+		color: #e332d8;
 	}
 
 	strong, b {
@@ -414,7 +417,7 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
+				background-color: #221486;
 				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
